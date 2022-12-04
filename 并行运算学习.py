@@ -147,5 +147,5 @@ from multiprocessing import cpu_count
 print("CPU的核数为：{}".format(cpu_count()))
 print(type(cpu_count()))
 
-# if __name__ == '__main__':
-#     multicore()
+if __name__ == '__main__':
+    multicore() # try to modify
